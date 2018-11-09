@@ -4,18 +4,13 @@
  * and open the template in the editor.
  */
 package schuleinfounterricht;
+import javafx.scene.paint.Color;
 
-/**
- *
- * @author ki.matheis
- */
 public class SchuleInfoUnterricht {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        Mensch mensch1 = new Mensch(20, 180, "Horst Seehofer",  "Deutschland", Color.BLACK);
+       
     }
     
 }
