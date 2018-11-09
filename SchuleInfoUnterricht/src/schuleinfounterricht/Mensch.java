@@ -19,18 +19,20 @@ public class Mensch {
     private String name;
     private String herkunft;
     private Color  color;
+
     
     //Konstruktor
-    void Mensch(int agePara, int heightinCMPara, String namePara, String herkunftPara, Color colorPara){
+    Mensch(int agePara, int heightinCMPara, String namePara, String herkunftPara, Color colorPara){
         age = agePara;
         heightinCM = heightinCMPara;
         name = namePara;
         herkunft = herkunftPara;
         color = colorPara;
     }
+   
     //Methoden
     void Erzeugen(){
-        
+        System.out.println("Der Mensch " + name + " wurde erstellt.");
     }
     
     
